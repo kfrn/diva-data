@@ -6,11 +6,14 @@ import re
 import requests
 from bs4 import BeautifulSoup
 
+
 def construct_actress_url(actress_id):
-    return f"http://www.imdb.com/name/{actress_id}/"
+    return f'http://www.imdb.com/name/{actress_id}/'
+
 
 def extract_imdb_title_id(url):
-    return re.search("tt\d+", url).group()
+    return re.search('tt\d+', url).group()
+
 
 def extract_film_ids(actress_url):
     page = requests.get(actress_url)
@@ -27,6 +30,7 @@ def extract_film_ids(actress_url):
 
     return film_data
 
+
 def extract_info(input_csv_path, output_csv_path):
     input_file = csv.reader(open(input_csv_path, 'r'))
     output_file = csv.writer(open(output_csv_path, 'w'))
@@ -38,8 +42,9 @@ def extract_info(input_csv_path, output_csv_path):
 
         film_ids = extract_film_ids(actress_url)
         film_ids_as_string = ', '.join(film_ids)
-        
+
         row.append(film_ids_as_string)
         output_file.writerow(row)
+
 
 extract_info('./data/diva_ids.csv', './data/diva_film_ids.csv')
