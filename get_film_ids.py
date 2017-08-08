@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
-import requests
-import re
-from bs4 import BeautifulSoup
 import csv
+import json
+import re
+import requests
+from bs4 import BeautifulSoup
 
 def construct_actress_url(actress_id):
     return f"http://www.imdb.com/name/{actress_id}/"
@@ -18,8 +19,10 @@ def extract_film_ids(actress_url):
     film_data = []
 
     for item in soup.find_all(class_='filmo-row'):
-        link = item.find('a')['href']
-        imdb_id = extract_imdb_title_id(link)
+        film_title = item.find('a').get_text()
+        film_link = item.find('a')['href']
+        imdb_id = extract_imdb_title_id(film_link)
+
         film_data.append(imdb_id)
 
     return film_data
@@ -30,11 +33,12 @@ def extract_info(input_csv_path, output_csv_path):
 
     for row in input_file:
         imdb_id = row[1]
+
         actress_url = construct_actress_url(imdb_id)
 
         film_ids = extract_film_ids(actress_url)
-        film_ids_as_string = ", ".join(film_ids)
-
+        film_ids_as_string = ', '.join(film_ids)
+        
         row.append(film_ids_as_string)
         output_file.writerow(row)
 
