@@ -32,7 +32,7 @@ def get_director_list():
     next(source_file, None)  # skips the headers
 
     for row in source_file:
-        director_column = row[4]
+        director_column = row[3]
         split_directors = director_column.split(',')
         for item in split_directors:
             if len(item) != 0:
@@ -50,7 +50,7 @@ def get_actor_list():
     next(source_file, None)  # skips the headers
 
     for row in source_file:
-        actor_column = row[10]
+        actor_column = row[8]
         split_actors = actor_column.split(',')
         for item in split_actors:
             if len(item) != 0:

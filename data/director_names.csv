@@ -1,196 +1,224 @@
-imdb_id,name,gender
-nm0578736,Leo Menardi,male
-nm0899581,Luchino Visconti,male
-nm0215516,Ubaldo Maria Del Colle,male
-nm0502752,Robert Z. Leonard,male
-nm0759386,Jack Salvatori,male
-nm0730611,Alfredo Robert,male
-nm0927468,Robert Wiene,male
-nm0131455,Augusto Camerini,male
-nm0144677,Renato Castellani,male
-nm0866299,Konrad Tom,male
-nm0087730,Silverio Blasi,male
-nm0157069,Luigi Chiarini,male
-nm0800547,Giorgio Simonelli,male
-nm0211158,Camillo De Riso,male
-nm0298928,Rate Furlan,male
-nm0217782,Peter Delpeut,male
-nm0081331,Wiktor Bieganski,male
-nm1301712,Ubaldo Pittei,male
-nm0030748,Giulio Antamoro,male
-nm0389275,Wolfgang Hoffmann-Harnisch,male
-nm0002189,Giuliano Carnimeo,male
-nm0784988,Gustavo Serena,male
-nm0209741,Wladimiro De Liguoro,male
-nm0296703,Arrigo Frusta,male
-nm0597597,Georges Monca,male
-nm0621797,Percy Nash,male
-nm0500552,Mitchell Leisen,male
-nm0263810,Nicolas Evreinoff,male
-nm0957995,Guglielmo Zorzi,male
-nm0322481,Maurice Gleize,male
-nm2522802,Umberto Fracchia,male
-nm0546917,Febo Mari,male
-nm0000934,Bernardo Bertolucci,male
-nm0693529,Armand Pouget,male
-nm1290518,Mario Gargiulo,male
-nm0309163,Louis J. Gasnier,male
-nm0535957,Luigi Maggi,male
-nm0245213,Julien Duvivier,male
-nm0743102,Gian Paolo Rosmino,male
-nm0313124,Giacomo Gentilomo,male
-nm0730743,Roberto Roberti,male
-nm1282639,Armando Carbone,male
-nm0472046,Georg Kroll,male
-nm0003422,Louis King,male
-nm0920853,Fritz Wendhausen,male
-nm0665163,Giovanni Pastrone,male
-nm0624511,Baldassarre Negroni,male
-nm0320488,Adriano Giovannetti,male
-nm0503777,Mervyn LeRoy,male
-nm0834496,Vladimir Strizhevsky,male
-nm0109264,Guido Brignone,male
-nm0259616,Joseph N. Ermolieff,male
-nm0691748,Friedrich Porges,male
-nm0543406,Giorgio Mannini,male
-nm0673773,Ivo Perilli,male
-nm0558127,Raffaello Matarazzo,male
-nm0865493,Sergio Tofano,male
-nm0865998,Riccardo Tolentino,male
-nm0800625,Renato Simoni,male
-nm0265782,Paola Faloja,female
-nm0255766,Marco Elter,male
-nm0361521,Heinz Hanus,male
-nm1291860,Alberto Degli Abbati,male
-nm0653250,Hans Otto,male
-nm0726729,Gennaro Righelli,male
-nm0557840,Camillo Mastrocinque,male
-nm0591308,Gianfranco Mingozzi,male
-nm0739971,Mario Roncoroni,male
-nm2486447,Oreste Mentasti,male
-nm0434934,William Kahn,male
-nm0274683,Mario Ferrero,male
-nm0173728,Luigi Comencini,male
-nm0500846,Tony Lekain,male
-nm0620587,Mario Nalpas,male
-nm1481994,Giuseppe Orioli,male
-nm0544490,Amerigo Manzini,male
-nm0211634,Ugo De Simone,male
-nm0533048,Max Mack,male
-nm0516263,Gerolamo Lo Savio,male
-nm1193022,Roberto Danesi,male
-nm0414985,Georg Jacoby,male
-nm1298035,Salvatore Aversano,male
-nm0664700,Ernesto Maria Pasquali,male
-nm0138251,Leopoldo Carlucci,male
-nm1004886,Maurizio Rava,male
-nm0698839,Yakov Protazanov,male
-nm3458149,José del Castillo,male
-nm0294276,Theo Frenkel,male
-nm0769256,Umberto Scarpelli,male
-nm0284807,Gerard Fontaine,male
-nm0595804,Léonide Moguy,male
-nm0856426,Eugenio Testa,male
-nm0321392,Giuseppe Giusti,male
-nm0603386,Gabriel Moreau,male
-nm0074284,Martin Berger,male
-nm0554245,Nino Martoglio,male
-nm0143333,Mario Caserini,male
-nm0558236,Godofredo Mateldi,male
-nm0674600,Léonce Perret,male
-nm0889527,Emilio Vardannes,male
-nm0233631,Luciano Doria,male
-nm0301154,Domenico Gaido,male
-nm0951508,Gino Zaccaria,male
-nm1720536,Robert Reinert,male
-nm1156070,Umberto Paradisi,male
-nm0952610,Gero Zambuto,male
-nm0655411,Raffaello Pacini,male
-nm0142822,Giovanni Casaleggio,male
-nm1002138,Gian Orlando Vassallo,male
-nm0712304,Gaston Ravel,male
-nm0557084,Mario Massa,male
-nm0131460,Mario Camerini,male
-nm0843636,Henryk Szaro,male
-nm0312866,Augusto Genina,male
-nm0000581,Joseph L. Mankiewicz,male
-nm0684659,Giuseppe Pinto,male
-nm0266080,Ugo Falena,male
-nm0652650,Richard Oswald,male
-nm0652974,Fyodor Otsep,male
-nm0345500,Enrico Guazzoni,male
-nm1302092,Telemaco Ruggeri,male
-nm0131293,Sandro Camasio,male
-nm0657509,Oreste Palella,male
-nm0001124,Cecil B. DeMille,male
-nm0096705,Luigi Romano Borgnetto,male
-nm0673035,Eugenio Perego,male
-nm0654581,Nino Oxilia,male
-nm0078116,Francesca Bertini,female
-nm2458357,Memmo Genua,male
-nm0094801,Mario Bonnard,male
-nm0900017,Giuseppe Maria Viti,male
-nm1349381,Enrique Santos,male
-nm0107543,Herbert Brenon,male
-nm0959178,Miguel de Zárraga,male
-nm0009588,Giuseppe Accattino,male
-nm1250893,Filippo Castamagna,male
-nm0537222,Léon Mathot,male
-nm0652302,Franz Osten,male
-nm0087704,Alessandro Blasetti,male
-nm2493690,Emilio Graziani-Walter,male
-nm0181231,Mario Corte,male
-nm0018136,Goffredo Alessandrini,male
-nm0407846,Ivo Illuminati,male
-nm0457186,Ladislao Kish,male
-nm0173774,Luca Comerio,male
-nm0176472,Miguel Contreras Torres,male
-nm0782703,Franz Seitz,male
-nm0873152,Leon Trystan,male
-nm0135421,Alberto Capozzi,male
-nm0563651,Pier Angelo Mazzolotti,male
-nm1057323,Giuseppe Petrai,male
-nm0539607,Nikolai Malikoff,male
-nm0396789,Jacques Houssin,male
-nm1441208,Vincenzo Denizot,male
-nm1902024,Torello Rolli,male
-nm0070374,Edoardo Bencivenga,male
-nm0659751,Rose Pansini,female
-nm0952571,Giorgio Zambon,male
-nm0826642,Steno,male
-nm0209738,Giuseppe de Liguoro,male
-nm0195076,Lucio D'Ambra,male
-nm0389155,Carl Hoffmann,male
-nm0901502,Alexandre Volkoff,male
-nm0307392,Pier Antonio Gariazzo,male
-nm0665113,Sergio Pastore,male
-nm0576901,Rudolf Meinert,male
-nm0952737,Luigi Zampa,male
-nm0021933,Mario Almirante,male
-nm0657535,Amleto Palermi,male
-nm0439188,Diana Karenne,female
-nm1445368,Attilio Fabbri,male
-nm0333309,Ugo Gracci,male
-nm0542649,Anthony Mann,male
-nm0478303,Marcel L'Herbier,male
-nm0395023,James W. Horne,male
-nm0734958,Eleuterio Rodolfi,male
-nm0818423,Jaap Speyer,male
-nm0207107,Alfredo De Antoni,male
-nm0195371,Daniele D'Anza,male
-nm0143975,Riccardo Cassano,male
-nm0626885,Max Neufeld,male
-nm0300898,Giovanna Gagliardo,female
-nm0643138,Max Obal,male
-nm0469170,Uwe Jens Krafft,male
-nm0315780,Emilio Ghione,male
-nm0303120,Carmine Gallone,male
-nm0856250,Richard Teschner,male
-nm0227602,Robert Dinesen,male
-nm0113284,Clarence Brown,male
-nm0133153,Carlo Campogalliani,male
-nm1883879,Gabriellino D'Annunzio,male
-nm0525414,Luitz-Morat,male
-nm0959921,Henri Étiévant,male
-nm0207362,Aldo De Benedetti,male
-nm1513152,Romolo Bacchini,male
+imdb_id,name
+nm0673035,Eugenio Perego
+nm0712304,Gaston Ravel
+nm0865998,Riccardo Tolentino
+nm0516263,Gerolamo Lo Savio
+nm0211158,Camillo De Riso
+nm0500846,Tony Lekain
+nm0557840,Camillo Mastrocinque
+nm0698839,Yakov Protazanov
+nm0503777,Mervyn LeRoy
+nm0557084,Mario Massa
+nm0544490,Amerigo Manzini
+nm0009588,Giuseppe Accattino
+nm0113284,Clarence Brown
+nm0002189,Giuliano Carnimeo
+nm0030748,Giulio Antamoro
+nm0800625,Renato Simoni
+nm0654581,Nino Oxilia
+nm2458357,Memmo Genua
+nm0558236,Godofredo Mateldi
+nm1445368,Attilio Fabbri
+nm0003422,Louis King
+nm0274683,Mario Ferrero
+nm0300898,Giovanna Gagliardo
+nm0135421,Alberto Capozzi
+nm0952571,Giorgio Zambon
+nm0333309,Ugo Gracci
+nm0209741,Wladimiro De Liguoro
+nm0657535,Amleto Palermi
+nm0889400,Pio Vanzi
+nm0538966,Nunzio Malasomma
+nm0217782,Peter Delpeut
+nm0653250,Hans Otto
+nm0542649,Anthony Mann
+nm0769256,Umberto Scarpelli
+nm0759386,Jack Salvatori
+nm0484761,Mario Landi
+nm0502752,Robert Z. Leonard
+nm0920853,Fritz Wendhausen
+nm0652302,Franz Osten
+nm0294276,Theo Frenkel
+nm2669873,Toddi
+nm0901502,Alexandre Volkoff
+nm0322481,Maurice Gleize
+nm0078116,Francesca Bertini
+nm0603386,Gabriel Moreau
+nm1057323,Giuseppe Petrai
+nm0087704,Alessandro Blasetti
+nm0143333,Mario Caserini
+nm0303120,Carmine Gallone
+nm1481994,Giuseppe Orioli
+nm0154352,Emile Chautard
+nm0782703,Franz Seitz
+nm0396789,Jacques Houssin
+nm1282639,Armando Carbone
+nm2522802,Umberto Fracchia
+nm0312866,Augusto Genina
+nm0535957,Luigi Maggi
+nm0018136,Goffredo Alessandrini
+nm0160108,Christian-Jaque
+nm0321392,Giuseppe Giusti
+nm1301712,Ubaldo Pittei
+nm0595804,Léonide Moguy
+nm0620587,Mario Nalpas
+nm0784988,Gustavo Serena
+nm0434934,William Kahn
+nm0309163,Louis J. Gasnier
+nm0144677,Renato Castellani
+nm0673773,Ivo Perilli
+nm0215516,Ubaldo Maria Del Colle
+nm0173774,Luca Comerio
+nm0469170,Uwe Jens Krafft
+nm0109264,Guido Brignone
+nm0107543,Herbert Brenon
+nm0389275,Wolfgang Hoffmann-Harnisch
+nm0563651,Pier Angelo Mazzolotti
+nm0414985,Georg Jacoby
+nm0209738,Giuseppe de Liguoro
+nm0928910,Carl Wilhelm
+nm0266080,Ugo Falena
+nm0421297,Ellen Jens
+nm0227602,Robert Dinesen
+nm0131460,Mario Camerini
+nm0643138,Max Obal
+nm1483832,Claudio Fino
+nm0818423,Jaap Speyer
+nm0889527,Emilio Vardannes
+nm0652650,Richard Oswald
+nm0865493,Sergio Tofano
+nm0081331,Wiktor Bieganski
+nm0739971,Mario Roncoroni
+nm0800547,Giorgio Simonelli
+nm0195371,Daniele D'Anza
+nm2486447,Oreste Mentasti
+nm0843636,Henryk Szaro
+nm0743102,Gian Paolo Rosmino
+nm0866299,Konrad Tom
+nm0001124,Cecil B. DeMille
+nm0856426,Eugenio Testa
+nm0478303,Marcel L'Herbier
+nm0957995,Guglielmo Zorzi
+nm0439188,Diana Karenne
+nm0709864,Rolf Randolf
+nm0655411,Raffaello Pacini
+nm0389155,Carl Hoffmann
+nm0730611,Alfredo Robert
+nm0659751,Rose Pansini
+nm0173728,Luigi Comencini
+nm0181102,Mario Corsi
+nm0652974,Fyodor Otsep
+nm0143975,Riccardo Cassano
+nm0255766,Marco Elter
+nm0142822,Giovanni Casaleggio
+nm0674600,Léonce Perret
+nm0902006,Géza von Bolváry
+nm0525414,Luitz-Morat
+nm0834496,Vladimir Strizhevsky
+nm0500552,Mitchell Leisen
+nm0176472,Miguel Contreras Torres
+nm0395023,James W. Horne
+nm0935488,Herbert Hall Winslow
+nm0021933,Mario Almirante
+nm0233631,Luciano Doria
+nm0000581,Joseph L. Mankiewicz
+nm0547155,Maurice Mariaud
+nm0298928,Rate Furlan
+nm0103855,Carlo Ludovico Bragaglia
+nm0138251,Leopoldo Carlucci
+nm1193022,Roberto Danesi
+nm0155469,Pierre Chenal
+nm0537222,Léon Mathot
+nm0900017,Giuseppe Maria Viti
+nm0691748,Friedrich Porges
+nm0301154,Domenico Gaido
+nm0665113,Sergio Pastore
+nm0265782,Paola Faloja
+nm1291860,Alberto Degli Abbati
+nm0181231,Mario Corte
+nm0211634,Ugo De Simone
+nm0578736,Leo Menardi
+nm0133153,Carlo Campogalliani
+nm0597597,Georges Monca
+nm1290518,Mario Gargiulo
+nm0591308,Gianfranco Mingozzi
+nm0873152,Leon Trystan
+nm0959921,Henri Étiévant
+nm0899581,Luchino Visconti
+nm1902024,Torello Rolli
+nm0315780,Emilio Ghione
+nm0345500,Enrico Guazzoni
+nm0554245,Nino Martoglio
+nm0259616,Joseph N. Ermolieff
+nm0284807,Gerard Fontaine
+nm0207362,Aldo De Benedetti
+nm2493690,Emilio Graziani-Walter
+nm0726729,Gennaro Righelli
+nm3458149,José del Castillo
+nm2499093,Mario Negri
+nm1298035,Salvatore Aversano
+nm0624511,Baldassarre Negroni
+nm0000934,Bernardo Bertolucci
+nm1302092,Telemaco Ruggeri
+nm0543406,Giorgio Mannini
+nm1720536,Robert Reinert
+nm0826642,Steno
+nm0657509,Oreste Palella
+nm0664700,Ernesto Maria Pasquali
+nm0558127,Raffaello Matarazzo
+nm0533048,Max Mack
+nm0693529,Armand Pouget
+nm1250893,Filippo Castamagna
+nm0131293,Sandro Camasio
+nm0096705,Luigi Romano Borgnetto
+nm0148486,Fernando Cerchio
+nm0207107,Alfredo De Antoni
+nm0894509,Robert Vernay
+nm0087730,Silverio Blasi
+nm1004886,Maurizio Rava
+nm0621797,Percy Nash
+nm1441208,Vincenzo Denizot
+nm0430968,Edward José
+nm0407846,Ivo Illuminati
+nm0131455,Augusto Camerini
+nm0827981,Giuseppe Sterni
+nm0665163,Giovanni Pastrone
+nm0313124,Giacomo Gentilomo
+nm0148602,Ferruccio Cerio
+nm1883879,Gabriellino D'Annunzio
+nm0472046,Georg Kroll
+nm0307392,Pier Antonio Gariazzo
+nm0539607,Nikolai Malikoff
+nm1513152,Romolo Bacchini
+nm0157069,Luigi Chiarini
+nm0361521,Heinz Hanus
+nm0952610,Gero Zambuto
+nm0546917,Febo Mari
+nm1349381,Enrique Santos
+nm0296703,Arrigo Frusta
+nm0734958,Eleuterio Rodolfi
+nm0576901,Rudolf Meinert
+nm0344583,Karl Grune
+nm0484366,Robert Land
+nm0927468,Robert Wiene
+nm0195076,Lucio D'Ambra
+nm0457186,Ladislao Kish
+nm0074284,Martin Berger
+nm0263810,Nicolas Evreinoff
+nm0094801,Mario Bonnard
+nm0684659,Giuseppe Pinto
+nm0717126,Max Reichmann
+nm0320488,Adriano Giovannetti
+nm1156070,Umberto Paradisi
+nm0070374,Edoardo Bencivenga
+nm0245213,Julien Duvivier
+nm0856250,Richard Teschner
+nm0418131,Victor Janson
+nm0761244,A.W. Sandberg
+nm0959178,Miguel de Zárraga
+nm0952737,Luigi Zampa
+nm0951508,Gino Zaccaria
+nm0579574,Romano Mengon
+nm1002138,Gian Orlando Vassallo
+nm0730743,Roberto Roberti
+nm0626885,Max Neufeld
