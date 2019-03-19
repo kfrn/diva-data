@@ -1,6 +1,17 @@
-# Rails server
+# Diva Data: Rails server
 
-## Setup
+* [API Reference](#api-reference)
+* [Developers](#developers)
+  * [Setup](#setup)
+  * [Tests](#tests)
+
+## API Reference
+
+The API reference is [here](./api_reference.md)
+
+## Developers
+
+### Setup
 
 Dependencies
 * Ruby `2.6.2`
@@ -15,7 +26,7 @@ bundle exec rails db:migrate
 bundle exec rails s
 ```
 
-## Tests
+### Tests
 
 ```bash
 bundle exec rspec
