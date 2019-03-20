@@ -65,3 +65,35 @@ If no person with that ID exists, the response will be a **404**, with the body:
   "message":" Couldn't find Person with 'id'=100"
 }
 ```
+
+## Divas
+
+| Method | Endpoint | Usage |
+| ------ | -------- | ----- |
+| GET | `/divas` | Get list of all divas |
+
+### Success
+
+```json
+[
+  {
+    "id": 8,
+    "imdb_id": "nm0381428",
+    "name": "Hesperia",
+    "director": false,
+    "diva": true,
+    "created_at": "2019-03-20T09:31:24.585Z",
+    "updated_at": "2019-03-20T09:41:25.463Z"
+  },
+  {
+    "id": 493,
+    "imdb_id": "nm0414294",
+    "name": "Maria Jacobini",
+    "director": false,
+    "diva": true,
+    "created_at": "2019-03-20T10:03:06.670Z",
+    "updated_at": "2019-03-20T10:03:06.670Z"
+  },
+  ...
+]
+```
