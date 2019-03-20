@@ -23,6 +23,7 @@ bundle install
 sudo -u postgres createuser -s rails-server
 bundle exec rails db:setup
 bundle exec rails db:migrate
+bundle exec rails db:seed
 bundle exec rails s
 ```
 
