@@ -91,8 +91,40 @@ If no person with that ID exists, the response will be a **404**, with the body:
     "name": "Maria Jacobini",
     "director": false,
     "diva": true,
-    "created_at": "2019-03-20T10:03:06.670Z",
-    "updated_at": "2019-03-20T10:03:06.670Z"
+    "created_at": "2019-03-20T09:31:24.585Z",
+    "updated_at": "2019-03-20T09:41:25.501Z"
+  },
+  ...
+]
+```
+
+## Directors
+
+| Method | Endpoint | Usage |
+| ------ | -------- | ----- |
+| GET | `/directors` | Get list of all directors |
+
+### Success
+
+```json
+[
+  {
+    "id": 97,
+    "imdb_id": "nm0303120",
+    "name": "Carmine Gallone",
+    "director": true,
+    "diva": false,
+    "created_at": "2019-03-20T09:31:24.585Z",
+    "updated_at": "2019-03-20T09:49:33.587Z"
+  },
+  {
+    "id": 167,
+    "imdb_id": "nm0827981",
+    "name": "Giuseppe Sterni",
+    "director": true,
+    "diva": false,
+    "created_at": "2019-03-20T09:31:24.585Z",
+    "updated_at": "2019-03-20T09:49:33.942Z"
   },
   ...
 ]
