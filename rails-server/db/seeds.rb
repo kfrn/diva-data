@@ -74,6 +74,12 @@ def upload_countries
       countries << release_location unless countries.include? release_location || release_location.nil?
     end
 
+    CSV.foreach('../data/production_companies.csv', headers: true) do |row|
+      country = row['country']
+
+      countries << country unless countries.include? country || country.nil?
+    end
+
     puts 'Importing countries to database ...'
 
     Country.import(countries.map { |c| { name: c } })
@@ -84,7 +90,32 @@ def upload_countries
   end
 end
 
+def upload_cities
+  if City.none?
+    cities = []
+
+    CSV.foreach('../data/production_companies.csv', headers: true) do |row|
+      next if row['city'].nil?
+
+      production_cities = row['city'].split(', ')
+
+      production_cities.map { |c| cities << c unless cities.include? c }
+    end
+
+    puts cities
+
+    puts 'Importing cities to database ...'
+
+    City.import(cities.map { |c| { name: c } })
+
+    puts 'Done!'
+  else
+    puts 'The database already has cities in it! Please destroy all before attempting to seed.'
+  end
+end
+
 upload_actors
 indicate_divadom
 set_as_director
 upload_countries
+upload_cities
