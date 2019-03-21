@@ -2,6 +2,11 @@
 
 As the dataset is static, the API only supports GET requests.
 
+* [People](#people)
+* [Divas](#divas)
+* [Directors](#directors)
+* [Countries](#countries)
+
 ## People
 
 | Method | Endpoint | Usage |
@@ -125,6 +130,32 @@ If no person with that ID exists, the response will be a **404**, with the body:
     "diva": false,
     "created_at": "2019-03-20T09:31:24.585Z",
     "updated_at": "2019-03-20T09:49:33.942Z"
+  },
+  ...
+]
+```
+
+## Countries
+
+| Method | Endpoint | Usage |
+| ------ | -------- | ----- |
+| GET | `/countries` | Get list of all countries |
+
+### Success
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Italy",
+    "created_at": "2019-03-21T07:50:19.350Z",
+    "updated_at": "2019-03-21T07:50:19.350Z"
+  },
+  {
+    "id": 2,
+    "name": "Germany",
+    "created_at": "2019-03-21T07:50:19.350Z",
+    "updated_at": "2019-03-21T07:50:19.350Z"
   },
   ...
 ]

@@ -60,6 +60,31 @@ def set_as_director
   puts 'Done!'
 end
 
+def upload_countries
+  if Country.none?
+    puts 'Reading in list of countries ...'
+
+    countries = []
+
+    CSV.foreach('../data/diva_film_data.csv', headers: true) do |row|
+      production_countries = row['production_country'].split(', ')
+      production_countries.map { |c| countries << c unless countries.include? c }
+
+      release_location = row['release_location']
+      countries << release_location unless countries.include? release_location || release_location.nil?
+    end
+
+    puts 'Importing countries to database ...'
+
+    Country.import(countries.map { |c| { name: c } })
+
+    puts 'Done!'
+  else
+    puts 'The database already has countries in it! Please destroy all before attempting to seed.'
+  end
+end
+
 upload_actors
 indicate_divadom
 set_as_director
+upload_countries
