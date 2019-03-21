@@ -114,8 +114,36 @@ def upload_cities
   end
 end
 
+def upload_production_companies
+  if ProductionCompany.none?
+    puts 'Reading in list of production companies ...'
+
+    CSV.foreach('../data/production_companies.csv', headers: true) do |row|
+      name = row['name'] if row['name']
+      city = row['city'].split(', ') if row['city']
+      cities = city&.map { |c| City.find_by(name: c) }
+      country = Country.find_by(name: row['country']) if row['country']
+
+      if cities
+        puts "Creating production company: #{name}, #{cities.map(&:name).join(', ')}, #{country.name}"
+
+        ProductionCompany.create(name: name, cities: cities, country: country)
+      else
+        puts "Creating production company: #{name}, #{country&.name}"
+
+        ProductionCompany.create(name: name, country: country)
+      end
+    end
+
+    puts 'Done!'
+  else
+    puts 'The database already has production companies in it! Please destroy all before attempting to seed.'
+  end
+end
+
 upload_actors
 indicate_divadom
 set_as_director
 upload_countries
 upload_cities
+upload_production_companies

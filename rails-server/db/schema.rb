@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_03_21_100246) do
+ActiveRecord::Schema.define(version: 2019_03_21_110233) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -19,12 +19,16 @@ ActiveRecord::Schema.define(version: 2019_03_21_100246) do
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "production_company_id"
+    t.index ["production_company_id"], name: "index_cities_on_production_company_id"
   end
 
   create_table "countries", force: :cascade do |t|
     t.string "name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "production_company_id"
+    t.index ["production_company_id"], name: "index_countries_on_production_company_id"
   end
 
   create_table "people", force: :cascade do |t|
@@ -36,4 +40,12 @@ ActiveRecord::Schema.define(version: 2019_03_21_100246) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "production_companies", force: :cascade do |t|
+    t.string "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  add_foreign_key "cities", "production_companies"
+  add_foreign_key "countries", "production_companies"
 end
