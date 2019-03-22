@@ -6,6 +6,7 @@ As the dataset is static, the API only supports GET requests.
 * [Divas](#divas)
 * [Directors](#directors)
 * [Countries](#countries)
+* [Films](#films)
 
 ## People
 
@@ -156,6 +157,40 @@ If no person with that ID exists, the response will be a **404**, with the body:
     "name": "Germany",
     "created_at": "2019-03-21T07:50:19.350Z",
     "updated_at": "2019-03-21T07:50:19.350Z"
+  },
+  ...
+]
+```
+
+## Films
+
+| Method | Endpoint | Usage |
+| ------ | -------- | ----- |
+| GET | `/films` | Get list of all films |
+
+### Success
+
+```json
+[
+  {
+    "id": 3,
+    "title": "Noli Me Tangere",
+    "year": 1942,
+    "release_month": "January",
+    "release_year": 2017,
+    "imdb_id": "259-94-5276",
+    "created_at": "2019-03-22T07:06:43.108Z",
+    "updated_at": "2019-03-22T07:06:43.108Z"
+  },
+  {
+    "id": 4,
+    "title": "The Monkey's Raincoat",
+    "year": 2004,
+    "release_month": "February",
+    "release_year": 1920,
+    "imdb_id": "395-05-2312",
+    "created_at": "2019-03-22T07:06:43.157Z",
+    "updated_at": "2019-03-22T07:06:43.157Z"
   },
   ...
 ]

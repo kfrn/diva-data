@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   resources :divas, only: :index
   resources :directors, only: :index
   resources :countries, only: :index
+  resources :films, only: :index
 end
