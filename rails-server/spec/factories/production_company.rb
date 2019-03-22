@@ -2,7 +2,7 @@
 
 FactoryBot.define do
   factory :production_company do
-    name   { Faker::Business }
+    name   { Faker::Space.company }
     cities { FactoryBot.build_list(:city, 2) }
 
     association :country, factory: :country

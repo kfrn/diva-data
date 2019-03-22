@@ -1,7 +1,8 @@
 # frozen_string_literal: true
 
 class Country < ApplicationRecord
-  belongs_to :production_company
+  has_and_belongs_to_many :film
+  has_and_belongs_to_many :production_company
 
   validates :name, presence: true
 end
