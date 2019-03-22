@@ -32,3 +32,10 @@ bundle exec rails s
 ```bash
 bundle exec rspec
 ```
+
+### TODOs
+
+- Add authentication
+- Paginate
+- Add dependent data
+- Remove created/updated at
