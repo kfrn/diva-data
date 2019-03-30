@@ -62,7 +62,7 @@ If no person with that ID exists, the response will be a **404**, with the body:
 
 ```json
 {
-  "message":" Couldn't find Person with 'id'=100"
+  "message": "Couldn't find Person with 'id'=100"
 }
 ```
 
@@ -154,22 +154,42 @@ If no person with that ID exists, the response will be a **404**, with the body:
 
 ```json
 [
-  {
-    "id": 3,
-    "title": "Noli Me Tangere",
-    "year": 1942,
-    "release_month": "January",
-    "release_year": 2017,
-    "imdb_id": "259-94-5276"
-  },
-  {
-    "id": 4,
-    "title": "The Monkey's Raincoat",
-    "year": 2004,
-    "release_month": "February",
-    "release_year": 1920,
-    "imdb_id": "395-05-2312"
-  },
-  ...
+   {
+      "id":4,
+      "title": "The Monkey's Raincoat",
+      "year":2004,
+      "countries": [
+         "Saint Vincent and the Grenadines"
+      ],
+      "directors": [
+         {
+            "name": "Ms. Lennie Gibson",
+            "imdb_id": "491-32-6067"
+         }
+      ],
+      "release_month": "February",
+      "release_year":1920,
+      "release_location": "United Arab Emirates",
+      "production_companies": [
+         {
+            "name": "JPL",
+            "cities": ["Amsterdam", "Haarlem"],
+            "country": "Netherlands"
+         },
+         {
+            "name": "SpaceX",
+            "cities": ["Vienna"],
+            "country": "Austria"
+         }
+      ],
+      "actors": [
+         {
+            "name": "Flora Severati",
+            "imdb_id": "nm2680012"
+         }
+      ],
+      "imdb_id": "395-05-2312"
+   },
+   ...
 ]
 ```

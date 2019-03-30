@@ -37,5 +37,5 @@ bundle exec rspec
 
 - Add authentication
 - Paginate
-- Add dependent data
-- Remove created/updated at
+- Fix model relationships for prod company etc
+- fix seed data: country, production company locations, etc
