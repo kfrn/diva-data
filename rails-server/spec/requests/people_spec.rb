@@ -18,6 +18,8 @@ RSpec.describe 'People API', type: :request do
         expect(person['imdb_id']).to be_a String
         expect(person['director']).to be_in([true, false])
         expect(person['diva']).to be_in([true, false])
+        expect(person).not_to include('created_at')
+        expect(person).not_to include('updated_at')
       end
     end
 
@@ -40,6 +42,8 @@ RSpec.describe 'People API', type: :request do
         expect(person['imdb_id']).to be_a String
         expect(person['director']).to be_in([true, false])
         expect(person['diva']).to be_in([true, false])
+        expect(person).not_to include('created_at')
+        expect(person).not_to include('updated_at')
       end
 
       it 'returns status code 200' do

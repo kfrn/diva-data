@@ -19,6 +19,8 @@ RSpec.describe 'Films API', type: :request do
         expect(film['release_month']).to be_a String
         expect(film['release_year']).to be_a Integer
         expect(film['imdb_id']).to be_a String
+        expect(film).not_to include('created_at')
+        expect(film).not_to include('updated_at')
       end
     end
 

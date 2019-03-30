@@ -18,6 +18,8 @@ RSpec.describe 'Directors API', type: :request do
         expect(director['imdb_id']).to be_a String
         expect(director['diva']).to be_in([true, false])
         expect(director['director']).to be true
+        expect(director).not_to include('created_at')
+        expect(director).not_to include('updated_at')
       end
     end
 

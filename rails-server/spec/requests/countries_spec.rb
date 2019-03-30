@@ -14,7 +14,10 @@ RSpec.describe 'Countries API', type: :request do
       expect(countries_json.size).to eq(10)
 
       countries_json.each do |country|
+        expect(country['id']).to be_a Integer
         expect(country['name']).to be_a String
+        expect(country).not_to include('created_at')
+        expect(country).not_to include('updated_at')
       end
     end
 

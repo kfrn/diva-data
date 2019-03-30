@@ -25,18 +25,14 @@ If the request is successful, the response will be a **200**, with the body:
     "imdb_id": "612-18-3624",
     "name": "Reggie Huels",
     "director": true,
-    "diva": false,
-    "created_at": "2019-03-19T09:46:43.258Z",
-    "updated_at": "2019-03-19T09:46:43.258Z"
+    "diva": false
   },
   {
     "id": 2,
     "imdb_id": "111-55-5160",
     "name": "Megan Grady Jr.",
     "director": false,
-    "diva": false,
-    "created_at": "2019-03-19T09:46:43.262Z",
-    "updated_at": "2019-03-19T09:46:43.262Z"
+    "diva": false
   },
   ...
 ]
@@ -56,9 +52,7 @@ If the request is successful, the response will be a **200**, with the body:
   "imdb_id": "825-71-4170",
   "name": "Alverta Kemmer",
   "director": false,
-  "diva": false,
-  "created_at": "2019-03-19T09:44:09.256Z",
-  "updated_at": "2019-03-19T09:44:09.256Z"
+  "diva": false
 }
 ```
 
@@ -87,18 +81,14 @@ If no person with that ID exists, the response will be a **404**, with the body:
     "imdb_id": "nm0381428",
     "name": "Hesperia",
     "director": false,
-    "diva": true,
-    "created_at": "2019-03-20T09:31:24.585Z",
-    "updated_at": "2019-03-20T09:41:25.463Z"
+    "diva": true
   },
   {
     "id": 493,
     "imdb_id": "nm0414294",
     "name": "Maria Jacobini",
     "director": false,
-    "diva": true,
-    "created_at": "2019-03-20T09:31:24.585Z",
-    "updated_at": "2019-03-20T09:41:25.501Z"
+    "diva": true
   },
   ...
 ]
@@ -119,18 +109,14 @@ If no person with that ID exists, the response will be a **404**, with the body:
     "imdb_id": "nm0303120",
     "name": "Carmine Gallone",
     "director": true,
-    "diva": false,
-    "created_at": "2019-03-20T09:31:24.585Z",
-    "updated_at": "2019-03-20T09:49:33.587Z"
+    "diva": false
   },
   {
     "id": 167,
     "imdb_id": "nm0827981",
     "name": "Giuseppe Sterni",
     "director": true,
-    "diva": false,
-    "created_at": "2019-03-20T09:31:24.585Z",
-    "updated_at": "2019-03-20T09:49:33.942Z"
+    "diva": false
   },
   ...
 ]
@@ -148,15 +134,11 @@ If no person with that ID exists, the response will be a **404**, with the body:
 [
   {
     "id": 1,
-    "name": "Italy",
-    "created_at": "2019-03-21T07:50:19.350Z",
-    "updated_at": "2019-03-21T07:50:19.350Z"
+    "name": "Italy"
   },
   {
     "id": 2,
-    "name": "Germany",
-    "created_at": "2019-03-21T07:50:19.350Z",
-    "updated_at": "2019-03-21T07:50:19.350Z"
+    "name": "Germany"
   },
   ...
 ]
@@ -178,9 +160,7 @@ If no person with that ID exists, the response will be a **404**, with the body:
     "year": 1942,
     "release_month": "January",
     "release_year": 2017,
-    "imdb_id": "259-94-5276",
-    "created_at": "2019-03-22T07:06:43.108Z",
-    "updated_at": "2019-03-22T07:06:43.108Z"
+    "imdb_id": "259-94-5276"
   },
   {
     "id": 4,
@@ -188,9 +168,7 @@ If no person with that ID exists, the response will be a **404**, with the body:
     "year": 2004,
     "release_month": "February",
     "release_year": 1920,
-    "imdb_id": "395-05-2312",
-    "created_at": "2019-03-22T07:06:43.157Z",
-    "updated_at": "2019-03-22T07:06:43.157Z"
+    "imdb_id": "395-05-2312"
   },
   ...
 ]

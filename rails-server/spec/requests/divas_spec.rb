@@ -18,6 +18,8 @@ RSpec.describe 'Divas API', type: :request do
         expect(diva['imdb_id']).to be_a String
         expect(diva['director']).to be_in([true, false])
         expect(diva['diva']).to be true
+        expect(diva).not_to include('created_at')
+        expect(diva).not_to include('updated_at')
       end
     end
 
