@@ -9,6 +9,14 @@ RSpec.describe Film, type: :model do
     it { should validate_presence_of(:imdb_id) }
   end
 
+  context 'associations' do
+    it { should have_many(:actors) }
+    it { should have_many(:countries) }
+    it { should have_many(:directors) }
+    it { should have_many(:production_companies) }
+    it { should have_one(:release_location) }
+  end
+
   context "when the film doesn't have a cast" do
     film = FactoryBot.build(:film, actors: [])
 
