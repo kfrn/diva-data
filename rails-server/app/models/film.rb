@@ -7,8 +7,8 @@ class Film < ApplicationRecord
   has_many :production_companies
   has_many :actors, class_name: 'Person'
 
-  validates :title, presence: true
-  validates :year, presence: true
-  validates :actors, presence: true
-  validates :imdb_id, presence: true
+  validates_presence_of :title,
+                        :year,
+                        :imdb_id,
+                        :actors
 end

@@ -5,5 +5,5 @@ class ProductionCompany < ApplicationRecord
   has_many                :cities
   has_one                 :country
 
-  validates :name, presence: true
+  validates_presence_of :name
 end
